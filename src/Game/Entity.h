@@ -130,7 +130,6 @@ protected:
     virtual void OnCollision(Entity* collidedWith) {};
     virtual void OnInitialize() {};
     virtual void SetImage(const char* path);
-    virtual Entity* Clone() const;
 
 private:
     void Update();
