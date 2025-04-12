@@ -1,8 +1,8 @@
 {
-    "name": "JeuLibre",
-    "folder": "JeuLibre\\",
+    "name": "Game",
+    "folder": "Game\\",
     "vc_project_version": "17.0",
-    "root_namespace": "JeuLibre",
+    "root_namespace": "Game",
     "windows_target_platform_version": "10.0",
     "use_vcpkg": "false",
     "use_vcpkg_manifest": "false",
