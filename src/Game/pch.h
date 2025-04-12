@@ -1,5 +1,8 @@
 #pragma once
 
+#include <SFML/Graphics.hpp>
+#include <iostream>
+
 #ifdef _DEBUG
 
 #include <crtdbg.h>

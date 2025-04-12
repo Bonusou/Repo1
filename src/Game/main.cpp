@@ -1,6 +1,28 @@
 #include "pch.h"
-#include <SFML/Graphics.hpp>
+
 
 int main() {
+
+	sf::RenderWindow window(sf::VideoMode(800, 600), "SFML works!");
+	sf::CircleShape shape(50);	
+	shape.setFillColor(sf::Color::Green);
+	shape.setPosition(100, 100);
+	shape.setOrigin(0, 50);
+
+	while (true)
+	{
+		sf::Event event;
+		while (window.pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed)
+				window.close();
+		}
+		window.clear();
+		window.draw(shape);
+		window.display();
+		if (!window.isOpen())
+			break;
+	}
+
 	return 0;
 }
